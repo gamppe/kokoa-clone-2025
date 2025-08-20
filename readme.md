@@ -1,3 +1,3 @@
 # kokoa clone 2025 update
 
-영차영차
+영차!
