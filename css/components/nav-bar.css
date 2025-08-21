@@ -16,18 +16,28 @@
     position:relative;
     color:#2e363e;
 }
-.nav__chats__notification{
+.nav__notification{
     background-color: tomato;
     width:25px;
     height: 25px;
     border-radius:50%;
+    
+    position:absolute;
+    left:20px;
+    bottom:15px;
+}
+.notification__chats{
     display:flex;
     justify-content: center;
     align-items: center;
     color:white;
     font-size:small;
     font-weight: 600;
-    position:absolute;
-    left:20px;
-    bottom:15px;
+}
+.notification__settings{
+    width:5px;
+    height: 5px;
+    left:27px;
+    bottom:25px;
+
 }
