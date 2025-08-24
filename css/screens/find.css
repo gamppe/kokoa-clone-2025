@@ -91,3 +91,6 @@
     bottom:5px;
     right:5px;
 }
+.open-post__heart-count>span{
+    margin-left: 7px;
+}

@@ -1,0 +1,31 @@
+i{
+    transition: color 0.3s ease;
+}
+i:hover{
+    color:var(--yellow);
+}
+
+.more-suggestions__icon-img > i:hover,
+.splash-screen > i:hover,
+.open-post__heart-count > i:hover {
+  color: inherit;
+}
+@keyframes heartColorAnimation {
+    0%{
+        color:white;
+        transform: none;
+    }
+    50%{
+        color:pink;
+        transform: scale(1.2);
+    }100%{
+        color:white;
+        transform: none;
+    }
+}
+    .open-post__heart-count:hover i{
+        will-change: transform;
+        animation: heartColorAnimation 0.3s ease infinite;
+
+    }
+    
