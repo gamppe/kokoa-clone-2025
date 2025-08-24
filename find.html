@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find = Kokoa Clone</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M8.288 15.038a5.25 5.25 0 0 1 7.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 0 1 1.06 0Z" />
+            </svg> <!--wifi icon-->
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21 10.5h.375c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125H21M4.5 10.5H18V15H4.5v-4.5ZM3.75 18h15A2.25 2.25 0 0 0 21 15.75v-6a2.25 2.25 0 0 0-2.25-2.25h-15A2.25 2.25 0 0 0 1.5 9.75v6A2.25 2.25 0 0 0 3.75 18Z" />
+            </svg> <!--Battery icon-->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+            </svg>
+        </div>
+
+
+
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-cog fa-lg"></i></span>
+            <div class="nav__notification notification__settings notification__cog"></div>
+
+
+
+
+
+        </div>
+    </header>
+    <main class="main__screen">
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-qrcode fa-2x"></i><span>QR Code</span>
+            </div>
+            <div class="find-icons__icon"><i class="fa-solid fa-address-book fa-2x"></i><span>Add by Contacts</span>
+            </div>
+            <div class="find-icons__icon"><i class="fa-solid fa-fingerprint fa-2x"></i><span>Add by ID</span></div>
+            <div class="find-icons__icon"><i class="fa-solid fa-envelope fa-2x"></i><span>Invite</span></div>
+        </div>
+        <div class="reccommended-friends">
+            <h6 class="reccommended-friends__title">Recommended Friends</h6>
+            <span>You have no recommended friends.</span>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>Go to Openchat Home<i class="fa-solid fa-chevron-right fa-lg"></i></span>
+
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#KIM BADUCK</h5>
+                    <h6 class="open-post__hashtags">#kim#baduck#emoji</h6>
+                    <div class="open-post__members">
+                        <img src="https://ogqmarket.img.sooplive.co.kr/sticker/635379cb04f13/main.png">
+                        <span class="open-post__member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://item.kakaocdn.net/do/beea4736dc0aa1f9066c869e1e2031a6f43ad912ad8dd55b04db6a64cddaf76d">
+                        <div class="open-post__heart-count">
+                            <i class="fa-solid fa-heart fa-lg"></i>
+                            <span>326</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__li"><a class="nav__a" href="friends.html"><i class="fa-regular fa-user fa-2x"></i></a></li>
+            <li class="nav__li"><a class="nav__a" href="chats.html"><i class="fa-regular fa-comment fa-2x">
+                        <span class="nav__notification badge">1</span></i></a></li>
+            <li class="nav__li"><a class="nav__a" href="find.html"><i
+                        class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+            <li class="nav__li"><a class="nav__a" href="more.html"><i class="fa-solid fa-ellipsis fa-2x"></i>
+                    <div class="nav__notification notification__settings"></div>
+                </a></li>
+        </ul>
+    </nav>
+
+
+
+    <script src="https://kit.fontawesome.com/b5ac015c11.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

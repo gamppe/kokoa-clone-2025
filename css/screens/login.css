@@ -23,7 +23,7 @@
 }
 #login-form input:not([type="submit"]){
     transition:  border-color 0.3s ease-in-out;
-    border-bottom: 1px solid rgba(0,0,0,0.3);
+    border-bottom: var(--main-border);
 }
 
 #login-form input{
@@ -33,7 +33,7 @@
     margin-bottom: 25px;
 }
 #login-form input::placeholder{
-    color:rgba(0,0,0,0.4);
+    color:var(--gray);
 }
 #login-form input:focus{
     border-color:var(--yellow);

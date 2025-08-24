@@ -5,7 +5,7 @@
     background-color: #f9f9fa;
     padding:20px 50px;
     box-sizing:border-box;
-    border-top:1px solid rgba(0,0,0,0.2);
+    border-top:var(--main-border);
 }
 .nav__ul{
     display: flex;
@@ -18,26 +18,22 @@
 }
 .nav__notification{
     background-color: tomato;
-    width:25px;
-    height: 25px;
-    border-radius:50%;
-    
+    border-radius: 50%;
     position:absolute;
     left:20px;
     bottom:15px;
 }
-.notification__chats{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    font-size:small;
-    font-weight: 600;
-}
+
 .notification__settings{
     width:5px;
     height: 5px;
     left:27px;
     bottom:25px;
-
+}
+.notification__cog{
+    left:unset;
+    bottom:unset;
+    right:-8px;
+    top:-5px;
+    
 }
